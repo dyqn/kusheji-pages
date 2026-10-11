@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>字距与行高，其实是一件事 · 酷设计</title>
+<meta name="description" content="关于中文界面排版的笔记：字距与行高不是两个独立参数，调整其中一个时另一个必须跟着动。">
+<link rel="canonical" href="https://kusheji.com/post-typesetting.html">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="index.html"><img class="logo" src="assets/logo.svg" alt="">酷设计</a>
+    <nav class="links">
+      <a href="index.html">首页</a>
+      <a class="on" href="blog.html">笔记</a>
+      <a href="works.html">作品</a>
+      <a href="about.html">关于</a>
+    </nav>
+  </div>
+</header>
+
+<main class="article">
+  <div class="wrap">
+    <div class="head-line">
+      <h1>字距与行高，其实是一件事</h1>
+      <div class="byline">笔记 · 2026 年 10 月</div>
+    </div>
+
+    <div class="body">
+      <p>排版软件里，字距（letter-spacing / tracking）和行高（line-height）是两个分开填写的框，所以很容易把它们当成两个独立的事：先调字距，让一行字看着顺；再调行高，让几行之间的空隙顺。问题是眼睛不看框，它看整块。</p>
+
+      <p>收紧字距之后，同一行文字的轮廓会更完整地连成一条横向的带子，行与行之间的"呼吸"就少了。这时候行高不动，整段会突然显得挤——不是哪里错了，是行间留白被字距吃掉了。反过来，放大字距以后行高可以稍微收一点，因为行间本来就更松。</p>
+
+      <blockquote>一行字越紧，它就越像一条实体；实体越多越密，它们之间需要的间隙就越大。</blockquote>
+
+      <h2>屏幕上的中文更吃亏</h2>
+      <p>拉丁字母有升降部，行与行之间天然是参差的，错开一点也能看出缝隙。汉字是方块，等高、等宽、密集排列，两行挨近的时候几乎会糊成一片灰。所以中文的行高起点通常要比同字号的英文更宽一些，负字距在中文里也更少被用到——除非是标题，而且字号够大。</p>
+
+      <p>正文里的负字距还有个隐性代价：标点和汉字本来就不等宽，把整体往左推之后，占半个字宽的标点位置会开始漂移，看起来行首不齐、句中忽松忽紧。这时候怎么调行高都救不回来。</p>
+
+      <h2>我现在的做法</h2>
+      <p>先定正文字号，再定一个偏宽的行高，把段落排到读起来不费劲；只有在段落读顺之后，才动字距，而且动的幅度以"看不出动了"为限。如果为了塞进固定高度必须收紧，我宁可让段落换到下一屏，也不缩小字号或者压行高——缩小只是把问题留给读者的眼睛。</p>
+
+      <p>还有一条关于分隔线的，顺手记在这里：分隔灰线的长度应该和它两侧内容的宽度一致，跟着容器内缩，而不是整块铺满。铺满的线会把读者的视线推到容器边缘，那已经不属于文字的范围了。</p>
+
+      <a class="back" href="blog.html">← 返回笔记列表</a>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 酷设计</span>
+    <a href="about.html">本站说明</a>
+    <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">豫ICP备14023578号-9</a>
+  </div>
+</footer>
+
+</body>
+</html>
